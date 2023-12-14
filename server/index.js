@@ -8,7 +8,7 @@ const cors = require('cors')
 app.use(cors());
 app.use(express.json());
 
-const encodedAuth = Buffer.from('calamari:Fpm4htuudLkuVRaXZEknWLgHgn8CJXMIVENkQXZ21fSo2YL6NCIdu72oMawYGy9mqye', 'utf8').toString('base64')
+const encodedAuth = Buffer.from('calamari:YOUR_API_KEY', 'utf8').toString('base64')
 const options = {
     url: 'https://obg.calamari.io/api/teams/v1/all',
     path: '/posts',
