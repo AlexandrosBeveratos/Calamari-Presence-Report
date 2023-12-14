@@ -24,7 +24,7 @@ const getData = async (url,body) => {
         'method': 'POST',
         auth: {
             username: 'calamari',
-            password: 'Fpm4htuudLkuVRaXZEknWLgHgn8CJXMIVENkQXZ21fSo2YL6NCIdu72oMawYGy9mqye'
+            password: 'YOUR_API_KEY'
         },
         'url': `https://obg.calamari.io/api${url}`,
         'headers': {
